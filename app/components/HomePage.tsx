@@ -27,32 +27,16 @@ function FileBadge({ ext }: { ext: string }) {
   );
 }
 
-function BrandMark() {
-  // Same icon as app/icon.svg (the browser favicon) -- kept as one
-  // inline markup rather than two separate assets, so they can't drift
-  // out of sync with each other. This is also the real desktop app's
-  // own icon, not a separate mark invented for the website.
-  return (
-    <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true">
-      <rect x="2" y="2" width="22" height="22" rx="7" fill="url(#brandGradient)" />
-      <rect x="16" y="16" width="14" height="14" rx="5" fill="#eafff9" />
-      <defs>
-        <linearGradient id="brandGradient" x1="2" y1="2" x2="24" y2="24" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#5eead4" />
-          <stop offset="1" stopColor="#0e7a6f" />
-        </linearGradient>
-      </defs>
-    </svg>
-  );
-}
-
 export default function HomePage({ locale, content: t }: { locale: Locale; content: LandingContent }) {
   return (
     <>
       <header className="header">
         <div className="header__inner">
           <div className="brand">
-            <BrandMark />
+            {/* eslint-disable-next-line @next/next/no-img-element -- a
+                fixed small logo doesn't need next/image's optimization
+                machinery, and this keeps the static export simpler. */}
+            <img src="/logo.png" width={22} height={22} alt="" aria-hidden="true" />
             Duplicate Finder
           </div>
           <nav className="nav">
