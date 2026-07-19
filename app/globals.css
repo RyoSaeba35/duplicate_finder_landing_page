@@ -272,25 +272,34 @@ button {
 /* ---- Hero visual: recreated app UI ---- */
 
 .demo {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .demo__stat {
-  position: absolute;
-  top: -18px;
-  right: 12px;
+  position: relative;
   z-index: 2;
   background: var(--panel-raised);
   border: 1px solid var(--teal-border);
   border-radius: var(--radius);
   padding: 10px 16px;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  /* Negative margin creates the "floating over the panel" look while
+     staying in normal document flow -- unlike absolute positioning
+     (the previous approach), this means its width is always accounted
+     for by the parent column, so it can never overflow past the hero
+     grid column or overlap the content behind it, regardless of how
+     long the translated text gets. */
+  margin-bottom: -16px;
+  max-width: 240px;
 }
 
 .reclaimCounter {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
 }
 
 .reclaimCounter__value {
@@ -309,6 +318,7 @@ button {
 }
 
 .demo__panel {
+  width: 100%;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
