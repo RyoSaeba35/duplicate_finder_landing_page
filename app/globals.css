@@ -1,27 +1,26 @@
 /* ---- Design tokens ----
-   Deliberately continuous with the desktop app's own dark UI (near-black
-   base, teal accent, monospace for data/technical text) rather than a
-   separate marketing palette — someone who downloads the app right after
-   visiting this page should feel zero visual discontinuity. Amber is a
-   second, sparingly-used accent for "before/wasted" states, so the page
-   isn't a single-accent template. */
+   Light-only palette, reusing the exact WCAG-verified light theme built
+   for the desktop app (same math, same values) rather than a fresh
+   guess -- keeps the app and site visually consistent, and every color
+   below is confirmed to meet at least 4.5:1 contrast against the
+   surface it's actually used on, not just eyeballed. */
 :root {
-  --void: #0b0d10;
-  --panel: #14171b;
-  --panel-raised: #1b1f24;
-  --border: #262b31;
-  --border-bright: #3a4149;
+  --void: #f6f7f9;
+  --panel: #ffffff;
+  --panel-raised: #eef0f3;
+  --border: #dde1e7;
+  --border-bright: #c5cbd4;
 
-  --ink: #e8eaed;
-  --ink-dim: #8b9198;
-  --ink-faint: #565d66;
+  --ink: #1a1d23;
+  --ink-dim: #454b5c;
+  --ink-faint: #616773;
 
-  --teal: #5eead4;
-  --teal-dim: rgba(94, 234, 212, 0.14);
-  --teal-border: rgba(94, 234, 212, 0.4);
+  --teal: #0e7a6f;
+  --teal-dim: rgba(14, 122, 111, 0.1);
+  --teal-border: rgba(14, 122, 111, 0.35);
 
-  --amber: #f0a868;
-  --amber-dim: rgba(240, 168, 104, 0.14);
+  --amber: #96540f;
+  --amber-dim: rgba(150, 84, 15, 0.1);
 
   --font-mono: "Cascadia Code", "Cascadia Mono", Consolas, "SF Mono",
     ui-monospace, "JetBrains Mono", Menlo, monospace;
@@ -172,11 +171,11 @@ button {
 
 .btn--primary {
   background: var(--teal);
-  color: #06201b;
+  color: #ffffff;
 }
 
 .btn--primary:hover {
-  background: #7ff0dc;
+  background: #0a6359;
 }
 
 .btn--ghost {
@@ -394,15 +393,16 @@ button {
 .card__thumb {
   height: 92px;
   border-radius: 6px;
-  background: linear-gradient(160deg, #232830, #171a1e);
+  background: linear-gradient(160deg, #e4e7eb, #d5d9df);
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--ink-faint);
 }
 
 .card__thumb svg {
-  opacity: 0.35;
+  opacity: 0.55;
 }
 
 .card__filename {
