@@ -21,6 +21,8 @@ const pt: LandingContent = {
     cardKeep: "Manter",
     cardDuplicate: "Duplicata",
     cardMarkForTrash: "marcar para a lixeira",
+    cardOpenFile: "Abrir arquivo ↗",
+    cardKeepInstead: "Manter este em vez disso →",
   },
   howItWorks: {
     eyebrow: "Como funciona",

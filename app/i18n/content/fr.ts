@@ -21,6 +21,8 @@ const fr: LandingContent = {
     cardKeep: "Conserver",
     cardDuplicate: "Doublon",
     cardMarkForTrash: "marquer pour la corbeille",
+    cardOpenFile: "Ouvrir le fichier ↗",
+    cardKeepInstead: "Conserver celui-ci à la place →",
   },
   howItWorks: {
     eyebrow: "Fonctionnement",

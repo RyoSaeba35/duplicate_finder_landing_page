@@ -21,6 +21,8 @@ const nl: LandingContent = {
     cardKeep: "Behouden",
     cardDuplicate: "Duplicaat",
     cardMarkForTrash: "markeren voor prullenbak",
+    cardOpenFile: "Bestand openen ↗",
+    cardKeepInstead: "Dit bestand behouden in plaats daarvan →",
   },
   howItWorks: {
     eyebrow: "Hoe het werkt",

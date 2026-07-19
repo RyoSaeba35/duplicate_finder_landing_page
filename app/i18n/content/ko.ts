@@ -21,6 +21,8 @@ const ko: LandingContent = {
     cardKeep: "유지",
     cardDuplicate: "중복",
     cardMarkForTrash: "휴지통으로 표시",
+    cardOpenFile: "파일 열기 ↗",
+    cardKeepInstead: "대신 이 파일 유지 →",
   },
   howItWorks: {
     eyebrow: "작동 방식",

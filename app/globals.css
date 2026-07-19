@@ -390,34 +390,85 @@ button {
   display: inline-block;
 }
 
-.card__thumb {
-  height: 92px;
+.card__preview {
   border-radius: 6px;
-  background: linear-gradient(160deg, #e4e7eb, #d5d9df);
+  overflow: hidden;
   margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink-faint);
+  border: 1px solid var(--border);
 }
 
-.card__thumb svg {
-  opacity: 0.55;
+.card__previewToolbar {
+  display: flex;
+  gap: 5px;
+  padding: 6px 8px;
+  background: var(--ink);
+  opacity: 0.9;
+}
+
+.card__previewToolbar span {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--panel);
+  opacity: 0.35;
+}
+
+.card__previewBody {
+  background: var(--panel);
+  padding: 14px 12px;
+}
+
+.card__previewLine {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--panel-raised);
+  margin-bottom: 7px;
 }
 
 .card__filename {
   font-size: 12px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card__path {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--ink-faint);
+  margin-bottom: 6px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
 .card__filemeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
   font-family: var(--font-mono);
   font-size: 10px;
   color: var(--ink-faint);
+}
+
+.card__linkBtn {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--teal);
+  background: var(--panel-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 3px 8px;
+  white-space: nowrap;
+}
+
+.card__linkBtn--full {
+  display: inline-block;
+  margin-top: 8px;
 }
 
 /* ---- Section shell ---- */

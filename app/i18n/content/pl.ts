@@ -21,6 +21,8 @@ const pl: LandingContent = {
     cardKeep: "Zachowaj",
     cardDuplicate: "Duplikat",
     cardMarkForTrash: "zaznacz do kosza",
+    cardOpenFile: "Otwórz plik ↗",
+    cardKeepInstead: "Zachowaj ten zamiast tego →",
   },
   howItWorks: {
     eyebrow: "Jak to działa",

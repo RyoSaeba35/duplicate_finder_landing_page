@@ -13,16 +13,27 @@ import { localeHref } from "../i18n/href";
 const DOWNLOAD_URL = "#";
 const GUMROAD_URL = "#";
 
-function FileIcon() {
+function DocPreview() {
+  // A simulated document preview (faint ruled lines + a small "toolbar")
+  // rather than a blank generic file icon -- the real app renders an
+  // actual live PDF/image preview here, and a blank icon undersold that
+  // compared to what the product actually does.
   return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-      <path
-        d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Z"
-        stroke="currentColor"
-        strokeWidth="1.4"
-      />
-      <path d="M15 2v5h5" stroke="currentColor" strokeWidth="1.4" />
-    </svg>
+    <div className="card__preview">
+      <div className="card__previewToolbar" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+      </div>
+      <div className="card__previewBody" aria-hidden="true">
+        <div className="card__previewLine" style={{ width: "70%" }} />
+        <div className="card__previewLine" style={{ width: "45%" }} />
+        <div style={{ height: 10 }} />
+        <div className="card__previewLine" style={{ width: "90%" }} />
+        <div className="card__previewLine" style={{ width: "85%" }} />
+        <div className="card__previewLine" style={{ width: "60%" }} />
+      </div>
+    </div>
   );
 }
 
@@ -84,11 +95,13 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                     <div className="card__badgeRow">
                       <span className="card__badge card__badge--keep">{t.hero.cardKeep}</span>
                     </div>
-                    <div className="card__thumb">
-                      <FileIcon />
-                    </div>
+                    <DocPreview />
                     <div className="card__filename">Screenshot 193107.png</div>
-                    <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>
+                    <div className="card__path">C:\Users\...\Downloads\Screenshot 193107.png</div>
+                    <div className="card__filemeta">
+                      <span>158.3 KB · Jul 2, 2026</span>
+                      <span className="card__linkBtn">{t.hero.cardOpenFile}</span>
+                    </div>
                   </div>
                   <div className="card">
                     <div className="card__badgeRow">
@@ -98,11 +111,14 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                         {t.hero.cardMarkForTrash}
                       </span>
                     </div>
-                    <div className="card__thumb">
-                      <FileIcon />
-                    </div>
+                    <DocPreview />
                     <div className="card__filename">Screenshot 193107 - Copy.png</div>
-                    <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>
+                    <div className="card__path">C:\Users\...\Documents\Screenshot 193107 - Copy.png</div>
+                    <div className="card__filemeta">
+                      <span>158.3 KB · Jul 2, 2026</span>
+                      <span className="card__linkBtn">{t.hero.cardOpenFile}</span>
+                    </div>
+                    <span className="card__linkBtn card__linkBtn--full">{t.hero.cardKeepInstead}</span>
                   </div>
                 </div>
               </div>

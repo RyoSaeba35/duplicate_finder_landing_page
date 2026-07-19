@@ -15,6 +15,8 @@ export interface LandingContent {
     cardKeep: string;
     cardDuplicate: string;
     cardMarkForTrash: string;
+    cardOpenFile: string;
+    cardKeepInstead: string;
   };
   howItWorks: {
     eyebrow: string;

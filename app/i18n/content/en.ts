@@ -21,6 +21,8 @@ const en: LandingContent = {
     cardKeep: "Keep",
     cardDuplicate: "Duplicate",
     cardMarkForTrash: "mark for trash",
+    cardOpenFile: "Open file ↗",
+    cardKeepInstead: "Keep this one instead →",
   },
   howItWorks: {
     eyebrow: "How it works",

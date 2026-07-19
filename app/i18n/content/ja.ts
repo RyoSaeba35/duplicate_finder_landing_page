@@ -21,6 +21,8 @@ const ja: LandingContent = {
     cardKeep: "保持",
     cardDuplicate: "重複",
     cardMarkForTrash: "ごみ箱に入れる対象としてマーク",
+    cardOpenFile: "ファイルを開く ↗",
+    cardKeepInstead: "代わりにこちらを保持する →",
   },
   howItWorks: {
     eyebrow: "使い方",
