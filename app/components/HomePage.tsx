@@ -28,9 +28,8 @@ function DocPreview() {
       <div className="card__previewBody" aria-hidden="true">
         <div className="card__previewLine" style={{ width: "70%" }} />
         <div className="card__previewLine" style={{ width: "45%" }} />
-        <div style={{ height: 10 }} />
+        <div style={{ height: 6 }} />
         <div className="card__previewLine" style={{ width: "90%" }} />
-        <div className="card__previewLine" style={{ width: "85%" }} />
         <div className="card__previewLine" style={{ width: "60%" }} />
       </div>
     </div>
@@ -98,10 +97,8 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                     <DocPreview />
                     <div className="card__filename">Screenshot 193107.png</div>
                     <div className="card__path">C:\Users\...\Downloads\Screenshot 193107.png</div>
-                    <div className="card__filemeta">
-                      <span>158.3 KB · Jul 2, 2026</span>
-                      <span className="card__linkBtn">{t.hero.cardOpenFile}</span>
-                    </div>
+                    <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>
+                    <span className="card__linkBtn">{t.hero.cardOpenFile}</span>
                   </div>
                   <div className="card">
                     <div className="card__badgeRow">
@@ -114,11 +111,11 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                     <DocPreview />
                     <div className="card__filename">Screenshot 193107 - Copy.png</div>
                     <div className="card__path">C:\Users\...\Documents\Screenshot 193107 - Copy.png</div>
-                    <div className="card__filemeta">
-                      <span>158.3 KB · Jul 2, 2026</span>
+                    <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
                       <span className="card__linkBtn">{t.hero.cardOpenFile}</span>
+                      <span className="card__linkBtn">{t.hero.cardKeepInstead}</span>
                     </div>
-                    <span className="card__linkBtn card__linkBtn--full">{t.hero.cardKeepInstead}</span>
                   </div>
                 </div>
               </div>

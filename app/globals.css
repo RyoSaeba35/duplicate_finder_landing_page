@@ -312,7 +312,7 @@ button {
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 18px;
+  padding: 14px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45);
 }
 
@@ -320,7 +320,7 @@ button {
   font-family: var(--font-mono);
   font-size: 11px;
   color: var(--ink-faint);
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 .demo__meta strong {
@@ -331,7 +331,7 @@ button {
 .demo__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 10px;
 }
 
 @media (max-width: 520px) {
@@ -344,7 +344,7 @@ button {
   background: var(--panel-raised);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 12px;
+  padding: 10px;
 }
 
 .card--keep {
@@ -393,21 +393,21 @@ button {
 .card__preview {
   border-radius: 6px;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   border: 1px solid var(--border);
 }
 
 .card__previewToolbar {
   display: flex;
   gap: 5px;
-  padding: 6px 8px;
+  padding: 5px 8px;
   background: var(--ink);
   opacity: 0.9;
 }
 
 .card__previewToolbar span {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 2px;
   background: var(--panel);
   opacity: 0.35;
@@ -415,14 +415,14 @@ button {
 
 .card__previewBody {
   background: var(--panel);
-  padding: 14px 12px;
+  padding: 10px 10px;
 }
 
 .card__previewLine {
-  height: 6px;
+  height: 5px;
   border-radius: 3px;
   background: var(--panel-raised);
-  margin-bottom: 7px;
+  margin-bottom: 6px;
 }
 
 .card__filename {
@@ -444,17 +444,19 @@ button {
   white-space: nowrap;
 }
 
+/* Stacked rather than a single row that tries to fit size/date text AND
+   a button side by side -- that wrapped badly once translated into
+   longer languages (French "Ouvrir le fichier" pushed the date onto its
+   own line mid-sentence). Stacking is immune to text length entirely. */
 .card__filemeta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
   font-family: var(--font-mono);
   font-size: 10px;
   color: var(--ink-faint);
+  margin-bottom: 6px;
 }
 
 .card__linkBtn {
+  display: inline-block;
   font-family: var(--font-sans);
   font-size: 10px;
   font-weight: 600;
@@ -467,8 +469,7 @@ button {
 }
 
 .card__linkBtn--full {
-  display: inline-block;
-  margin-top: 8px;
+  margin-top: 2px;
 }
 
 /* ---- Section shell ---- */
