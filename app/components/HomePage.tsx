@@ -13,25 +13,16 @@ import { localeHref } from "../i18n/href";
 const DOWNLOAD_URL = "#";
 const GUMROAD_URL = "#";
 
-function DocPreview() {
-  // A simulated document preview (faint ruled lines + a small "toolbar")
-  // rather than a blank generic file icon -- the real app renders an
-  // actual live PDF/image preview here, and a blank icon undersold that
-  // compared to what the product actually does.
+function FileBadge({ ext }: { ext: string }) {
+  // This is what the real app actually shows for a file it isn't
+  // live-rendering a thumbnail for: a large neutral preview area with a
+  // small bordered extension badge centered in it -- not an invented
+  // mockup. Matching this exactly, rather than a stylized approximation,
+  // since an invented visual that doesn't correspond to anything real is
+  // worse than a plain, accurate one.
   return (
     <div className="card__preview">
-      <div className="card__previewToolbar" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-      </div>
-      <div className="card__previewBody" aria-hidden="true">
-        <div className="card__previewLine" style={{ width: "70%" }} />
-        <div className="card__previewLine" style={{ width: "45%" }} />
-        <div style={{ height: 6 }} />
-        <div className="card__previewLine" style={{ width: "90%" }} />
-        <div className="card__previewLine" style={{ width: "60%" }} />
-      </div>
+      <span className="card__previewBadge">{ext}</span>
     </div>
   );
 }
@@ -94,7 +85,7 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                     <div className="card__badgeRow">
                       <span className="card__badge card__badge--keep">{t.hero.cardKeep}</span>
                     </div>
-                    <DocPreview />
+                    <FileBadge ext="PNG" />
                     <div className="card__filename">Screenshot 193107.png</div>
                     <div className="card__path">C:\Users\...\Downloads\Screenshot 193107.png</div>
                     <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>
@@ -108,7 +99,7 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                         {t.hero.cardMarkForTrash}
                       </span>
                     </div>
-                    <DocPreview />
+                    <FileBadge ext="PNG" />
                     <div className="card__filename">Screenshot 193107 - Copy.png</div>
                     <div className="card__path">C:\Users\...\Documents\Screenshot 193107 - Copy.png</div>
                     <div className="card__filemeta">158.3 KB · Jul 2, 2026</div>

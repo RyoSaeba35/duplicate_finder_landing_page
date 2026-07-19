@@ -401,38 +401,26 @@ button {
 }
 
 .card__preview {
+  height: 90px;
   border-radius: 6px;
-  overflow: hidden;
   margin-bottom: 8px;
-  border: 1px solid var(--border);
-}
-
-.card__previewToolbar {
-  display: flex;
-  gap: 5px;
-  padding: 5px 8px;
-  background: var(--ink);
-  opacity: 0.9;
-}
-
-.card__previewToolbar span {
-  width: 7px;
-  height: 7px;
-  border-radius: 2px;
-  background: var(--panel);
-  opacity: 0.35;
-}
-
-.card__previewBody {
-  background: var(--panel);
-  padding: 10px 10px;
-}
-
-.card__previewLine {
-  height: 5px;
-  border-radius: 3px;
   background: var(--panel-raised);
-  margin-bottom: 6px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__previewBadge {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--ink-faint);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 16px;
 }
 
 .card__filename {
