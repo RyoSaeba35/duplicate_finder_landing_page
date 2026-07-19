@@ -118,14 +118,6 @@ button {
   letter-spacing: -0.01em;
 }
 
-.brand__mark {
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
-  background: linear-gradient(135deg, var(--teal), #2dd4a7);
-  flex-shrink: 0;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -283,16 +275,10 @@ button {
   background: var(--panel-raised);
   border: 1px solid var(--teal-border);
   border-radius: var(--radius);
-  padding: 10px 16px;
+  padding: 7px 12px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
-  /* Negative margin creates the "floating over the panel" look while
-     staying in normal document flow -- unlike absolute positioning
-     (the previous approach), this means its width is always accounted
-     for by the parent column, so it can never overflow past the hero
-     grid column or overlap the content behind it, regardless of how
-     long the translated text gets. */
-  margin-bottom: -16px;
-  max-width: 240px;
+  margin-bottom: -14px;
+  max-width: 200px;
 }
 
 .reclaimCounter {
@@ -305,13 +291,13 @@ button {
 .reclaimCounter__value {
   font-family: var(--font-mono);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   color: var(--teal);
   line-height: 1.1;
 }
 
 .reclaimCounter__label {
-  font-size: 10px;
+  font-size: 9px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--ink-faint);
