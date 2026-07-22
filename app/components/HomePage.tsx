@@ -7,13 +7,13 @@ import { localeHref } from "../i18n/href";
 // GUMROAD_URL is live: this is the real checkout link from the
 // Duplicate Finder product's Share tab.
 //
-// DOWNLOAD_URL is still a placeholder -- and deliberately can't just be
-// the file attached to the Gumroad product's Content page, since that's
-// gated behind checkout (even a $0 test purchase). The trial is free
-// with no account or card required (see the FAQ below), so this needs a
-// separately-hosted, always-public installer -- e.g. a GitHub Releases
-// asset on this project's repo. Swap this out once that's published.
-const DOWNLOAD_URL = "#";
+// DOWNLOAD_URL is live too: a direct-download GitHub Releases asset link
+// for the free-trial installer. Confirmed it triggers an actual file
+// download rather than landing on a GitHub page -- exactly what a
+// download button needs, as opposed to the Gumroad-hosted installer,
+// which is gated behind checkout and can't serve the free trial.
+const DOWNLOAD_URL =
+  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.1.0/Duplicate.Finder_0.1.0_x64-setup.exe";
 const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
 
 function FileBadge({ ext }: { ext: string }) {
