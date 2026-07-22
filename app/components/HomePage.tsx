@@ -4,14 +4,17 @@ import type { LandingContent } from "../i18n/types";
 import type { Locale } from "../i18n/locales";
 import { localeHref } from "../i18n/href";
 
-// TODO: swap these once the corresponding steps are done — DOWNLOAD_URL
-// once installers are actually published somewhere (e.g. GitHub
-// Releases), GUMROAD_URL once step 3 (Gumroad product) is live. Mirrors
-// the same placeholder pattern used for BUY_URL in the app's own
-// LicenseGate.tsx, so there's one obvious thing to search-and-replace
-// in each codebase when those exist.
+// GUMROAD_URL is live: this is the real checkout link from the
+// Duplicate Finder product's Share tab.
+//
+// DOWNLOAD_URL is still a placeholder -- and deliberately can't just be
+// the file attached to the Gumroad product's Content page, since that's
+// gated behind checkout (even a $0 test purchase). The trial is free
+// with no account or card required (see the FAQ below), so this needs a
+// separately-hosted, always-public installer -- e.g. a GitHub Releases
+// asset on this project's repo. Swap this out once that's published.
 const DOWNLOAD_URL = "#";
-const GUMROAD_URL = "#";
+const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
 
 function FileBadge({ ext }: { ext: string }) {
   // This is what the real app actually shows for a file it isn't
