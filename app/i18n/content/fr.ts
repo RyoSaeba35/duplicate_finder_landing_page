@@ -15,6 +15,8 @@ const fr: LandingContent = {
     ctaPrimary: "Télécharger pour Windows",
     ctaSecondary: "Voir comment ça marche",
     ctaNote: "Toutes les fonctionnalités pendant 14 jours. Sans compte, sans carte bancaire.",
+    securityNote:
+      "Premier lancement : Windows peut afficher un message « Windows a protégé votre ordinateur » — c'est normal pour les développeurs indépendants. Cliquez sur « Plus d'infos » → « Exécuter quand même ».",
     demoMeta: "3 fichiers identiques · 158,3 Ko chacun",
     demoReclaimable: "158,3 Ko récupérables",
     counterLabel: "récupérables sur cette analyse",
@@ -93,6 +95,10 @@ const fr: LandingContent = {
       {
         q: "Que se passe-t-il après l'essai de 14 jours ?",
         a: "L'application bloque l'analyse jusqu'à ce que vous saisissiez une clé de licence. Vos données et paramètres d'essai ne sont pas affectés — activer une clé débloque simplement l'application à nouveau.",
+      },
+      {
+        q: "Pourquoi Windows affiche-t-il un avertissement à l'installation ?",
+        a: "Parce que l'application n'est pas encore signée avec un certificat payant — une étape que la plupart des développeurs indépendants sautent avant leurs premières ventes. Windows affiche ce message pour tout éditeur non reconnu, que le logiciel soit sûr ou non ; ce n'est pas un jugement sur cette application en particulier. Cliquez sur « Plus d'infos » puis « Exécuter quand même » pour continuer. Le code source est public sur GitHub si vous souhaitez vérifier ce qu'elle fait avant d'installer.",
       },
     ],
   },

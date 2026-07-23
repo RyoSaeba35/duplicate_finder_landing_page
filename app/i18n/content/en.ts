@@ -15,6 +15,8 @@ const en: LandingContent = {
     ctaPrimary: "Download for Windows",
     ctaSecondary: "See how it works",
     ctaNote: "Full features for 14 days. No account, no credit card.",
+    securityNote:
+      "First launch: Windows may show a \"Windows protected your PC\" prompt — this is normal for independent developers. Click More info → Run anyway.",
     demoMeta: "3 identical files · 158.3 KB each",
     demoReclaimable: "158.3 KB reclaimable",
     counterLabel: "reclaimable, this scan",
@@ -89,6 +91,10 @@ const en: LandingContent = {
       {
         q: "What happens after the 14-day trial?",
         a: "The app locks scanning until you enter a license key. Your trial data and settings aren't affected — activating a key just unlocks it again.",
+      },
+      {
+        q: "Why does Windows show a warning when I install it?",
+        a: "Because the app isn't yet signed with a paid code-signing certificate — something most solo developers skip before their first sales. Windows flags any unrecognized publisher this way, whether the software is safe or not; it's not a judgment on this specific app. Click \"More info\" then \"Run anyway\" to continue. The source code is public on GitHub if you'd like to check what it does before installing.",
       },
     ],
   },

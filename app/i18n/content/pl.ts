@@ -15,6 +15,8 @@ const pl: LandingContent = {
     ctaPrimary: "Pobierz dla Windows",
     ctaSecondary: "Zobacz, jak to działa",
     ctaNote: "Wszystkie funkcje przez 14 dni. Bez konta, bez karty kredytowej.",
+    securityNote:
+      "Pierwsze uruchomienie: Windows może wyświetlić komunikat „Windows chronił Twój komputer\" — to normalne u niezależnych deweloperów. Kliknij „Więcej informacji\" → „Uruchom mimo to\".",
     demoMeta: "3 identyczne pliki · po 158,3 KB",
     demoReclaimable: "158,3 KB do odzyskania",
     counterLabel: "do odzyskania w tym skanowaniu",
@@ -93,6 +95,10 @@ const pl: LandingContent = {
       {
         q: "Co się dzieje po 14-dniowym okresie próbnym?",
         a: "Aplikacja blokuje skanowanie, dopóki nie wprowadzisz klucza licencyjnego. Twoje dane i ustawienia z okresu próbnego pozostają nienaruszone — aktywacja klucza po prostu ponownie odblokowuje aplikację.",
+      },
+      {
+        q: "Dlaczego Windows wyświetla ostrzeżenie podczas instalacji?",
+        a: "Ponieważ aplikacja nie jest jeszcze podpisana płatnym certyfikatem podpisywania kodu — krok, który większość niezależnych deweloperów pomija przed pierwszą sprzedażą. Windows w ten sposób oznacza każdego nierozpoznanego wydawcę, niezależnie od tego, czy oprogramowanie jest bezpieczne; to nie jest ocena akurat tej aplikacji. Kliknij „Więcej informacji\", a następnie „Uruchom mimo to\", aby kontynuować. Kod źródłowy jest publicznie dostępny na GitHub, jeśli chcesz sprawdzić, co robi przed instalacją.",
       },
     ],
   },

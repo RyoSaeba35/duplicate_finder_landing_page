@@ -15,6 +15,8 @@ const pt: LandingContent = {
     ctaPrimary: "Baixar para Windows",
     ctaSecondary: "Ver como funciona",
     ctaNote: "Todos os recursos por 14 dias. Sem conta, sem cartão de crédito.",
+    securityNote:
+      "Primeira execução: o Windows pode exibir um aviso \"O Windows protegeu o computador\" — isso é normal para desenvolvedores independentes. Clique em \"Mais informações\" → \"Executar assim mesmo\".",
     demoMeta: "3 arquivos idênticos · 158,3 KB cada",
     demoReclaimable: "158,3 KB recuperáveis",
     counterLabel: "recuperáveis nesta análise",
@@ -93,6 +95,10 @@ const pt: LandingContent = {
       {
         q: "O que acontece após o teste de 14 dias?",
         a: "O aplicativo bloqueia a análise até que você insira uma chave de licença. Seus dados e configurações do teste não são afetados — ativar uma chave apenas desbloqueia o aplicativo novamente.",
+      },
+      {
+        q: "Por que o Windows exibe um aviso ao instalar?",
+        a: "Porque o aplicativo ainda não está assinado com um certificado de assinatura de código pago — uma etapa que a maioria dos desenvolvedores independentes pula antes das primeiras vendas. O Windows sinaliza assim qualquer editor não reconhecido, seja o software seguro ou não; não é um julgamento sobre este aplicativo em particular. Clique em \"Mais informações\" e depois em \"Executar assim mesmo\" para continuar. O código-fonte é público no GitHub, caso queira verificar o que ele faz antes de instalar.",
       },
     ],
   },

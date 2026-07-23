@@ -15,6 +15,8 @@ const nl: LandingContent = {
     ctaPrimary: "Downloaden voor Windows",
     ctaSecondary: "Bekijk hoe het werkt",
     ctaNote: "Alle functies 14 dagen lang. Geen account, geen creditcard.",
+    securityNote:
+      "Eerste keer opstarten: Windows kan de melding \"Windows heeft uw pc beschermd\" tonen — dit is normaal voor onafhankelijke ontwikkelaars. Klik op \"Meer info\" → \"Toch uitvoeren\".",
     demoMeta: "3 identieke bestanden · elk 158,3 KB",
     demoReclaimable: "158,3 KB terug te winnen",
     counterLabel: "terug te winnen bij deze scan",
@@ -93,6 +95,10 @@ const nl: LandingContent = {
       {
         q: "Wat gebeurt er na de proefperiode van 14 dagen?",
         a: "De app blokkeert scannen totdat u een licentiesleutel invoert. Uw proefgegevens en instellingen blijven ongewijzigd — het activeren van een sleutel ontgrendelt de app gewoon weer.",
+      },
+      {
+        q: "Waarom toont Windows een waarschuwing bij installatie?",
+        a: "Omdat de app nog niet is ondertekend met een betaald code-signing certificaat — een stap die de meeste zelfstandige ontwikkelaars overslaan vóór hun eerste verkopen. Windows markeert zo elke onbekende uitgever, ongeacht of de software veilig is; het is geen oordeel over deze specifieke app. Klik op \"Meer info\" en vervolgens op \"Toch uitvoeren\" om door te gaan. De broncode is openbaar op GitHub als u wilt controleren wat de app doet vóór installatie.",
       },
     ],
   },

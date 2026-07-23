@@ -15,6 +15,8 @@ const de: LandingContent = {
     ctaPrimary: "Für Windows herunterladen",
     ctaSecondary: "So funktioniert's",
     ctaNote: "Alle Funktionen für 14 Tage. Kein Konto, keine Kreditkarte.",
+    securityNote:
+      "Erster Start: Windows zeigt möglicherweise die Meldung „Windows hat Ihren PC geschützt\" — das ist normal bei unabhängigen Entwicklern. Klicken Sie auf „Weitere Informationen\" → „Trotzdem ausführen\".",
     demoMeta: "3 identische Dateien · je 158,3 KB",
     demoReclaimable: "158,3 KB wiederherstellbar",
     counterLabel: "wiederherstellbar bei diesem Scan",
@@ -93,6 +95,10 @@ const de: LandingContent = {
       {
         q: "Was passiert nach der 14-tägigen Testphase?",
         a: "Die App sperrt das Scannen, bis Sie einen Lizenzschlüssel eingeben. Ihre Testdaten und Einstellungen bleiben unberührt — die Aktivierung eines Schlüssels schaltet die App einfach wieder frei.",
+      },
+      {
+        q: "Warum zeigt Windows bei der Installation eine Warnung an?",
+        a: "Weil die App noch nicht mit einem kostenpflichtigen Code-Signing-Zertifikat signiert ist — ein Schritt, den die meisten Solo-Entwickler vor ihren ersten Verkäufen auslassen. Windows markiert damit jeden unbekannten Herausgeber, unabhängig davon, ob die Software sicher ist; es ist kein Urteil über diese spezielle App. Klicken Sie auf „Weitere Informationen\" und dann „Trotzdem ausführen\", um fortzufahren. Der Quellcode ist öffentlich auf GitHub einsehbar, falls Sie vor der Installation prüfen möchten, was die App tut.",
       },
     ],
   },

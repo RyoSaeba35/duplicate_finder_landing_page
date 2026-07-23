@@ -76,6 +76,9 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
               <div className="hero__ctaNote" style={{ marginTop: 16 }}>
                 {t.hero.ctaNote}
               </div>
+              <div className="hero__ctaNote" style={{ marginTop: 8, fontSize: 13, opacity: 0.8 }}>
+                {t.hero.securityNote}
+              </div>
             </div>
 
             <div className="demo">
