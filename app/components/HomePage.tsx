@@ -76,8 +76,24 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
               <div className="hero__ctaNote" style={{ marginTop: 16 }}>
                 {t.hero.ctaNote}
               </div>
-              <div className="hero__ctaNote" style={{ marginTop: 8, fontSize: 13, opacity: 0.8 }}>
-                {t.hero.securityNote}
+              <div
+                style={{
+                  marginTop: 10,
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: 8,
+                  padding: "10px 12px",
+                  borderRadius: 8,
+                  background: "rgba(45, 212, 167, 0.08)",
+                  border: "1px solid rgba(45, 212, 167, 0.25)",
+                  fontSize: 13,
+                  lineHeight: 1.5,
+                }}
+              >
+                <span aria-hidden="true" style={{ flexShrink: 0, marginTop: 1 }}>
+                  ⓘ
+                </span>
+                <span>{t.hero.securityNote}</span>
               </div>
             </div>
 
