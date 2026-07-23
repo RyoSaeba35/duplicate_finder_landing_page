@@ -9,6 +9,7 @@ export interface LandingContent {
     ctaPrimary: string;
     ctaSecondary: string;
     ctaNote: string;
+    securityNote: string;
     demoMeta: string;
     demoReclaimable: string;
     counterLabel: string;
