@@ -1,6 +1,11 @@
 import type { MetadataRoute } from "next";
 import { LOCALES } from "./i18n/locales";
 
+// Required by Next.js 15 for metadata route handlers under
+// output: "export" -- without this, the build fails since it can't
+// otherwise confirm this route is safe to pre-render statically.
+export const dynamic = "force-static";
+
 const SITE_URL = "https://www.getduplicatefinder.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
