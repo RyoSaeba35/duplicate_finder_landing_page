@@ -31,8 +31,32 @@ function FileBadge({ ext }: { ext: string }) {
 }
 
 export default function HomePage({ locale, content: t }: { locale: Locale; content: LandingContent }) {
+  // SoftwareApplication structured data -- lets Google potentially show
+  // price/OS directly in search results. Deliberately does NOT include
+  // aggregateRating/review fields: Google's structured data guidelines
+  // prohibit fabricated ratings, and there's no real review data yet to
+  // report honestly. Add this back once genuine reviews exist somewhere
+  // verifiable (e.g. once Gumroad Discover eligibility kicks in).
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Duplicate Finder",
+    operatingSystem: "Windows",
+    applicationCategory: "UtilitiesApplication",
+    offers: {
+      "@type": "Offer",
+      price: "15",
+      priceCurrency: "EUR",
+    },
+    description: t.meta.description,
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className="header">
         <div className="header__inner">
           <div className="brand">
