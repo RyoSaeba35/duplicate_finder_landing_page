@@ -1,7 +1,7 @@
 import type { LegalContent } from "../legalTypes";
 
 // TODO: replace with a real support address before launch.
-export const CONTACT_EMAIL = "support@example.com";
+export const CONTACT_EMAIL = "galernestudio.support@proton.me";
 
 const en: LegalContent = {
   backHome: "← Back to home",
