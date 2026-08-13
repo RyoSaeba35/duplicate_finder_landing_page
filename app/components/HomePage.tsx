@@ -98,9 +98,6 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                   {t.hero.ctaPrimary}
                 </a>
               </div>
-              <div className="hero__ctaNote" style={{ marginTop: 16 }}>
-                {t.hero.ctaNote}
-              </div>
             </div>
 
             <div className="demo">
@@ -145,6 +142,9 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
           </div>
 
           <div className="wrap">
+            <div className="hero__ctaNote" style={{ marginTop: 16 }}>
+              {t.hero.ctaNote}
+            </div>
             <div
               style={{
                 marginTop: 24,
