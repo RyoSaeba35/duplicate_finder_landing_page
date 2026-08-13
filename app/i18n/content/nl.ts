@@ -13,6 +13,7 @@ const nl: LandingContent = {
     headlineEm: "dubbele",
     sub: "Scant elke map of schijf, toont u precies wat identiek is naast elkaar, en verplaatst duplicaten naar de prullenbak — nooit permanent verwijderd.",
     ctaPrimary: "Downloaden voor Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "Bekijk hoe het werkt",
     ctaNote: "Alle functies 14 dagen lang. Geen account, geen creditcard.",
     securityNote:

@@ -13,6 +13,7 @@ const fr: LandingContent = {
     headlineEm: "double",
     sub: "Analyse n'importe quel dossier ou disque, vous montre exactement ce qui est identique côte à côte, et déplace les doublons vers la corbeille — jamais de suppression définitive.",
     ctaPrimary: "Télécharger pour Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "Voir comment ça marche",
     ctaNote: "Toutes les fonctionnalités pendant 14 jours. Sans compte, sans carte bancaire.",
     securityNote:

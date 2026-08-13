@@ -13,6 +13,7 @@ const de: LandingContent = {
     headlineEm: "doppelten",
     sub: "Durchsucht beliebige Ordner oder Laufwerke, zeigt Ihnen genau, was identisch ist, nebeneinander, und verschiebt Duplikate in den Papierkorb — niemals dauerhaft gelöscht.",
     ctaPrimary: "Für Windows herunterladen",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "So funktioniert's",
     ctaNote: "Alle Funktionen für 14 Tage. Kein Konto, keine Kreditkarte.",
     securityNote:

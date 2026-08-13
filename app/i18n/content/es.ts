@@ -13,6 +13,7 @@ const es: LandingContent = {
     headlineEm: "duplicados",
     sub: "Analiza cualquier carpeta o unidad, le muestra exactamente qué es idéntico uno junto al otro, y mueve los duplicados a la papelera de reciclaje — nunca una eliminación permanente.",
     ctaPrimary: "Descargar para Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "Ver cómo funciona",
     ctaNote: "Todas las funciones durante 14 días. Sin cuenta, sin tarjeta de crédito.",
     securityNote:

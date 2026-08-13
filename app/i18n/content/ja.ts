@@ -13,6 +13,7 @@ const ja: LandingContent = {
     headlineEm: "重複ファイル",
     sub: "任意のフォルダーやドライブをスキャンし、同一のファイルを並べて正確に表示し、重複ファイルをごみ箱に移動します — 完全な削除は行いません。",
     ctaPrimary: "Windows版をダウンロード",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "使い方を見る",
     ctaNote: "14日間、すべての機能を利用可能。アカウント登録・クレジットカード不要。",
     securityNote:

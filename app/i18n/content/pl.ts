@@ -13,6 +13,7 @@ const pl: LandingContent = {
     headlineEm: "duplikaty",
     sub: "Skanuje dowolny folder lub dysk, pokazuje dokładnie, co jest identyczne, obok siebie, i przenosi duplikaty do kosza — nigdy trwałe usunięcie.",
     ctaPrimary: "Pobierz dla Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "Zobacz, jak to działa",
     ctaNote: "Wszystkie funkcje przez 14 dni. Bez konta, bez karty kredytowej.",
     securityNote:

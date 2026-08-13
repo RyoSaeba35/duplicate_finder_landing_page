@@ -13,6 +13,7 @@ const en: LandingContent = {
     headlineEm: "duplicate",
     sub: "Scans any folder or drive, shows you exactly what's identical side by side, and moves duplicates to the Recycle Bin — never a permanent delete.",
     ctaPrimary: "Download for Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "See how it works",
     ctaNote: "Full features for 14 days. No account, no credit card.",
     securityNote:

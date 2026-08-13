@@ -13,6 +13,7 @@ const ko: LandingContent = {
     headlineEm: "중복 파일",
     sub: "모든 폴더나 드라이브를 스캔하여 동일한 파일을 나란히 정확하게 보여주고, 중복 파일을 휴지통으로 이동합니다 — 영구 삭제는 절대 하지 않습니다.",
     ctaPrimary: "Windows용 다운로드",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "작동 방식 보기",
     ctaNote: "14일간 모든 기능 이용 가능. 계정이나 신용카드가 필요하지 않습니다.",
     securityNote:

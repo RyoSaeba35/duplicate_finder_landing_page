@@ -15,6 +15,7 @@ import { localeHref } from "../i18n/href";
 const DOWNLOAD_URL =
   "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.1.0/Duplicate.Finder_0.1.0_x64-setup.exe";
 const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
+const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 function FileBadge({ ext }: { ext: string }) {
   // This is what the real app actually shows for a file it isn't
@@ -93,8 +94,8 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                 <a className="btn btn--primary" href={DOWNLOAD_URL}>
                   {t.hero.ctaPrimary}
                 </a>
-                <a className="btn btn--ghost" href="#how-it-works">
-                  {t.hero.ctaSecondary}
+                <a className="btn btn--store" href={MICROSOFT_STORE_URL}>
+                  {t.hero.ctaStore}
                 </a>
               </div>
               <div className="hero__ctaNote" style={{ marginTop: 16 }}>

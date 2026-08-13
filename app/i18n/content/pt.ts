@@ -13,6 +13,7 @@ const pt: LandingContent = {
     headlineEm: "duplicados",
     sub: "Analisa qualquer pasta ou unidade, mostra exatamente o que é idêntico lado a lado, e move duplicatas para a lixeira — nunca uma exclusão permanente.",
     ctaPrimary: "Baixar para Windows",
+    ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "Ver como funciona",
     ctaNote: "Todos os recursos por 14 dias. Sem conta, sem cartão de crédito.",
     securityNote:

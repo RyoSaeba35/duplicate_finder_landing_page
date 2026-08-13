@@ -7,6 +7,7 @@ export interface LandingContent {
     headlineEm: string;
     sub: string;
     ctaPrimary: string;
+    ctaStore: string;
     ctaSecondary: string;
     ctaNote: string;
     securityNote: string;
