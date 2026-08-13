@@ -91,11 +91,11 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
               </h1>
               <p className="hero__sub">{t.hero.sub}</p>
               <div className="hero__ctaRow">
-                <a className="btn btn--primary" href={DOWNLOAD_URL}>
-                  {t.hero.ctaPrimary}
-                </a>
                 <a className="btn btn--store" href={MICROSOFT_STORE_URL}>
                   {t.hero.ctaStore}
+                </a>
+                <a className="btn btn--primary" href={DOWNLOAD_URL}>
+                  {t.hero.ctaPrimary}
                 </a>
               </div>
               <div className="hero__ctaNote" style={{ marginTop: 16 }}>
