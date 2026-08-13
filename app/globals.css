@@ -170,6 +170,17 @@ button {
   background: #0a6359;
 }
 
+.btn--store {
+  background: #1f2430;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn--store:hover {
+  background: #2a3140;
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
 .btn--ghost {
   background: transparent;
   border-color: var(--border-bright);
