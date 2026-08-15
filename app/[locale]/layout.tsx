@@ -45,12 +45,10 @@ export async function generateMetadata({
     description: content.meta.description,
     alternates: {
       canonical: pageUrl,
-      // Points search engines at the same content in every language, so
-      // e.g. a French searcher is offered the French version instead of
-      // being sent to English -- standard practice for multilingual
-      // static sites, and low-effort given we already know every locale
-      // at build time via LOCALES.
-      languages: Object.fromEntries(LOCALES.map((l) => [l.code, `/${l.code}`])),
+      languages: {
+        ...Object.fromEntries(LOCALES.map((l) => [l.code, `/${l.code}`])),
+        "x-default": "/en",
+      },
     },
     openGraph: {
       title: content.meta.title,
