@@ -63,8 +63,7 @@ export default function SeoPage({ h1, intro, sections, steps, faq, cta }: SeoPag
           <section className="seo-page__cta">
             <h2>{cta.heading}</h2>
             <p>{cta.body}</p>
-            <a href={DOWNLOAD_URL} className="btn btn--primary">{cta.button}</a> or from
-            <a href={MICROSOFT_STORE_URL} className="btn btn--ghost">Get it from Microsoft Store</a>
+            <a href={DOWNLOAD_URL} className="btn btn--primary">{cta.button}</a> or <a href={MICROSOFT_STORE_URL} className="btn btn--ghost">Get it from Microsoft Store</a>
           </section>
         </div>
       </main>
