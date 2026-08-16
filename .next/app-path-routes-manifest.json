@@ -1,16 +1,16 @@
 {
   "/_not-found/page": "/_not-found",
   "/apple-icon.png/route": "/apple-icon.png",
-  "/favicon.ico/route": "/favicon.ico",
   "/icon.png/route": "/icon.png",
+  "/favicon.ico/route": "/favicon.ico",
   "/icon.svg/route": "/icon.svg",
   "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
   "/page": "/",
   "/how-to-find-duplicate-files-windows/page": "/how-to-find-duplicate-files-windows",
-  "/duplicate-photo-finder-windows/page": "/duplicate-photo-finder-windows",
   "/free-up-disk-space-windows/page": "/free-up-disk-space-windows",
+  "/duplicate-photo-finder-windows/page": "/duplicate-photo-finder-windows",
+  "/[locale]/terms/page": "/[locale]/terms",
   "/[locale]/page": "/[locale]",
-  "/[locale]/privacy/page": "/[locale]/privacy",
-  "/[locale]/terms/page": "/[locale]/terms"
+  "/[locale]/privacy/page": "/[locale]/privacy"
 }

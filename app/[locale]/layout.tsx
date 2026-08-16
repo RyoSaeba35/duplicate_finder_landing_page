@@ -13,7 +13,7 @@ export function generateStaticParams() {
 // Every OG image URL below is resolved against this. Required for Open
 // Graph/Twitter card previews to work at all -- without it, relative
 // image paths can't become the absolute URLs those platforms require.
-const SITE_URL = "https://www.getduplicatefinder.app";
+const SITE_URL = "https://getduplicatefinder.app";
 
 // Maps our short locale codes to full BCP-47 tags for og:locale, which
 // wants e.g. "en_US" / "fr_FR" rather than bare "en" / "fr".
@@ -58,7 +58,7 @@ export async function generateMetadata({
       // og-image.png needs to exist at /public/og-image.png -- a 1200x630
       // social-preview image is a separate design asset, not something
       // generated from this code. See note below.
-      images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Duplicate Finder" }],
+      images: [{ url: `${SITE_URL}/og-image.png`, width: 1200, height: 630, alt: "Duplicate Finder" }],
       locale: OG_LOCALE[locale],
       type: "website",
     },
@@ -66,7 +66,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: content.meta.title,
       description: content.meta.description,
-      images: ["/og-image.png"],
+      images: [`${SITE_URL}/og-image.png`],
     },
   };
 }
