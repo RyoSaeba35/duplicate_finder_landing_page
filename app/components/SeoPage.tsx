@@ -1,5 +1,6 @@
 const DOWNLOAD_URL =
   "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.1.0/Duplicate.Finder_0.1.0_x64-setup.exe";
+const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 export interface SeoPageProps {
   h1: string;
@@ -63,6 +64,7 @@ export default function SeoPage({ h1, intro, sections, steps, faq, cta }: SeoPag
             <h2>{cta.heading}</h2>
             <p>{cta.body}</p>
             <a href={DOWNLOAD_URL} className="btn btn--primary">{cta.button}</a>
+            <a href={MICROSOFT_STORE_URL} className="btn btn--ghost">Get it from Microsoft Store</a>
           </section>
         </div>
       </main>
