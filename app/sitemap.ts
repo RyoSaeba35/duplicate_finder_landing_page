@@ -8,14 +8,30 @@ export const dynamic = "force-static";
 
 const SITE_URL = "https://www.getduplicatefinder.app";
 
+const SEO_PAGES = [
+  "how-to-find-duplicate-files-windows",
+  "free-up-disk-space-windows",
+  "duplicate-photo-finder-windows",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  return LOCALES.map((l) => ({
+  const localePages = LOCALES.map((l) => ({
     url: `${SITE_URL}/${l.code}`,
     lastModified: new Date(),
-    changeFrequency: "monthly",
-    // English gets slight priority as the presumed highest-traffic
-    // variant; adjust if French ends up being your actual majority
-    // audience given the landing page currently defaults there.
+    changeFrequency: "monthly" as const,
     priority: l.code === "en" ? 1 : 0.8,
   }));
+
+  const seoPages = SEO_PAGES.map((slug) => ({
+    url: `${SITE_URL}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.9,
+  }));
+
+  return [
+    { url: SITE_URL, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 1 },
+    ...localePages,
+    ...seoPages,
+  ];
 }
