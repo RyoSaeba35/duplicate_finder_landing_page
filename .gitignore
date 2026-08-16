@@ -1,0 +1,12 @@
+# Build output
+out/
+.next/
+
+# Dependencies
+node_modules/
+
+# Zone identifiers (WSL artifact)
+*:Zone.Identifier
+
+# OS
+.DS_Store

@@ -222,6 +222,13 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
             <a href={localeHref(locale, "terms")}>{t.footer.terms}</a>
             <a href="#changelog">{t.footer.changelog}</a>
             <a href={GUMROAD_URL}>{t.footer.buy}</a>
+            {locale === "en" && (
+              <>
+                <a href="/how-to-find-duplicate-files-windows">Find duplicate files</a>
+                <a href="/free-up-disk-space-windows">Free up disk space</a>
+                <a href="/duplicate-photo-finder-windows">Duplicate photo finder</a>
+              </>
+            )}
           </div>
         </div>
       </footer>

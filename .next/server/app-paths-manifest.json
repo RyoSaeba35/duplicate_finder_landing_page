@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/page": "app/page.js",
+  "/how-to-find-duplicate-files-windows/page": "app/how-to-find-duplicate-files-windows/page.js",
+  "/duplicate-photo-finder-windows/page": "app/duplicate-photo-finder-windows/page.js",
+  "/free-up-disk-space-windows/page": "app/free-up-disk-space-windows/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/privacy/page": "app/[locale]/privacy/page.js",
+  "/[locale]/terms/page": "app/[locale]/terms/page.js"
+}
