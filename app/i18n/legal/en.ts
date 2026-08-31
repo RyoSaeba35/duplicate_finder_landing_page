@@ -1,16 +1,21 @@
 import type { LegalContent } from "../legalTypes";
 
-// TODO: replace with a real support address before launch.
 export const CONTACT_EMAIL = "galernestudio.support@proton.me";
 
 const en: LegalContent = {
   backHome: "← Back to home",
   privacy: {
     title: "Privacy Policy",
-    lastUpdated: "Last updated: July 2026",
+    lastUpdated: "Last updated: August 2026",
     intro:
       "This is a short policy because Duplicate Finder doesn't collect much. Here's exactly what happens to your data, and what doesn't.",
     sections: [
+      {
+        heading: "Who we are",
+        body: [
+          "Duplicate Finder is published by Pierre Libran, operating as Galerne Studio (sole trader, SIRET 10699681200017), based in Lyon, France. Contact: galernestudio.support@proton.me.",
+        ],
+      },
       {
         heading: "The app itself",
         body: [
@@ -22,20 +27,29 @@ const en: LegalContent = {
       {
         heading: "This website",
         body: [
-          "This site is a set of static pages with no accounts, forms, or tracking scripts. Our hosting provider may keep standard server access logs (such as IP address and browser type) as a normal part of operating any website — we don't have a separate analytics or advertising script collecting this ourselves.",
+          "This site is hosted by Railway (railway.app). As a normal part of operating any website, Railway may retain standard server access logs (IP address, browser type, pages visited). These logs are governed by Railway's own privacy policy.",
+          "With your consent, this site uses Google Analytics 4 (Google LLC, USA) to understand traffic — pages visited, approximate country, browser type. No personal data is collected beyond what Google Analytics records under your consent. Google Analytics data is processed under standard contractual clauses for transfers outside the EU. You can withdraw consent at any time by clearing your browser's local storage for this site.",
+          "Google Search Console is used on our end to monitor search performance. It does not place any cookies on your device and collects no personal data from visitors.",
         ],
       },
       {
         heading: "Purchases",
         body: [
           "Payments are handled entirely by Gumroad, a third-party payment processor. When you buy a license, Gumroad collects your email address and payment details under its own privacy policy — we recommend reading it at gumroad.com/privacy.",
-          "We (the developer) only receive your email address and confirmation that a sale occurred, which we use to send you a license key. We do not receive or store your payment card details at any point.",
+          "We (the developer) only receive your email address and confirmation that a sale occurred, which we use to send you a license key. We keep this information for the duration of the commercial relationship and up to 7 years for legal and tax obligations. We do not receive or store your payment card details at any point.",
         ],
       },
       {
         heading: "Cookies",
         body: [
-          "This site does not currently use cookies or tracking scripts. If that changes in the future (for example, adding basic analytics), this policy will be updated accordingly.",
+          "The app itself sets no cookies. This website uses a single cookie to remember your analytics consent choice (stored in your browser's local storage). Google Analytics cookies are only set if you click \"Accept\" on the consent banner — they are blocked by default.",
+        ],
+      },
+      {
+        heading: "Your rights (GDPR)",
+        body: [
+          "If you are in the European Union, you have the right to access, correct, or delete any personal data we hold about you, to object to or restrict its processing, and to receive it in a portable format.",
+          "To exercise these rights, contact us at galernestudio.support@proton.me. We will respond within 30 days. If you are unsatisfied with our response, you have the right to lodge a complaint with your local data protection authority — in France, the CNIL (cnil.fr).",
         ],
       },
       {
@@ -46,10 +60,16 @@ const en: LegalContent = {
   },
   terms: {
     title: "Terms of Service",
-    lastUpdated: "Last updated: July 2026",
+    lastUpdated: "Last updated: August 2026",
     intro:
       "These terms cover buying and using Duplicate Finder. They're written to be genuinely readable, not just legally exhaustive — if anything here is unclear, feel free to ask.",
     sections: [
+      {
+        heading: "Who you're contracting with",
+        body: [
+          "Duplicate Finder is published by Pierre Libran, operating as Galerne Studio (sole trader, SIRET 10699681200017), based in Lyon, France. Contact: galernestudio.support@proton.me.",
+        ],
+      },
       {
         heading: "The license",
         body: [
@@ -85,12 +105,14 @@ const en: LegalContent = {
       {
         heading: "Changes to these terms",
         body: [
-          "These terms may be updated from time to time. Continued use of the software after an update constitutes acceptance of the revised terms.",
+          "These terms may be updated from time to time. We will notify you of significant changes by posting a notice on this site. Continued use of the software after such notice constitutes acceptance of the revised terms.",
         ],
       },
       {
         heading: "Governing law",
-        body: ["These terms are governed by French law."],
+        body: [
+          "These terms are governed by French law. For consumers in the EU, mandatory consumer protection provisions of your country of residence also apply.",
+        ],
       },
       {
         heading: "Contact",
