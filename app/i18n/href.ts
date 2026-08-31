@@ -4,8 +4,7 @@ import type { Locale } from "./locales";
 // duplicate-content SEO issue from having the same content at two URLs).
 // Every other locale is prefixed, e.g. "/fr", "/fr/privacy".
 export function localeHref(locale: Locale, path: string = ""): string {
-  const prefix = locale === "en" ? "" : `/${locale}`;
   const cleanPath = path.replace(/^\//, "");
-  if (!cleanPath) return prefix || "/";
-  return `${prefix}/${cleanPath}`;
+  if (!cleanPath) return locale === "en" ? "/" : `/${locale}`;
+  return `/${locale}/${cleanPath}`;
 }
