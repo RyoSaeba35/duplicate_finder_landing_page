@@ -220,6 +220,7 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
           <div className="footer__links">
             <a href={localeHref(locale, "privacy")}>{t.footer.privacy}</a>
             <a href={localeHref(locale, "terms")}>{t.footer.terms}</a>
+            <a href="/mentions-legales">Mentions légales</a>
             <a href="#changelog">{t.footer.changelog}</a>
             <a href={GUMROAD_URL}>{t.footer.buy}</a>
             {locale === "en" && (
