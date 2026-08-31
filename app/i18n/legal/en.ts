@@ -42,7 +42,7 @@ const en: LegalContent = {
       {
         heading: "Cookies",
         body: [
-          "The app itself sets no cookies. This website uses a single cookie to remember your analytics consent choice (stored in your browser's local storage). Google Analytics cookies are only set if you click \"Accept\" on the consent banner — they are blocked by default.",
+          "The app itself sets no cookies. This website uses a single entry in your browser's local storage to remember your analytics consent choice. Google Analytics cookies are only set if you click \"Accept\" on the consent banner — they are blocked by default.",
         ],
       },
       {
