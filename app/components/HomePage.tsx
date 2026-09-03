@@ -13,12 +13,12 @@ import { localeHref } from "../i18n/href";
 // download button needs, as opposed to the Gumroad-hosted installer,
 // which is gated behind checkout and can't serve the free trial.
 const DOWNLOAD_URL =
-  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.1.0/Duplicate.Finder_0.1.0_x64-setup.exe";
+  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.2.0/Duplicate.Finder_0.2.0_x64-setup.exe";
 const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
 const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 function FileBadge({ ext }: { ext: string }) {
-  // This is what the real app actually shows for a file it isn't
+  // This is what the real app actually shows for a file it isn't 
   // live-rendering a thumbnail for: a large neutral preview area with a
   // small bordered extension badge centered in it -- not an invented
   // mockup. Matching this exactly, rather than a stylized approximation,
