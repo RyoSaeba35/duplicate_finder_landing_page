@@ -17,7 +17,7 @@ const pl: LandingContent = {
     ctaSecondary: "Zobacz jak to działa",
     ctaNote: "Bezpłatne skanowanie na zawsze. Bez konta, bez karty kredytowej. 15 € raz, aby odblokować usuwanie.",
     securityNote:
-      "Pierwsze uruchomienie: Windows może wyświetlić komunikat „Windows chronił twój komputer" — jest to normalne dla niezależnych deweloperów. Kliknij Więcej informacji → Uruchom i tak.",
+      "Pierwsze uruchomienie: Windows może wyświetlić komunikat \"Windows chronił twój komputer\" — jest to normalne dla niezależnych deweloperów. Kliknij Więcej informacji → Uruchom i tak.",
     demoMeta: "3 identyczne pliki · po 158,3 KB",
     demoReclaimable: "158,3 KB do odzyskania",
     counterLabel: "do odzyskania, to skanowanie",
@@ -116,7 +116,7 @@ const pl: LandingContent = {
       },
       {
         q: "Dlaczego Windows wyświetla ostrzeżenie podczas instalacji?",
-        a: "Ponieważ aplikacja nie jest jeszcze podpisana płatnym certyfikatem podpisu kodu — coś, co większość niezależnych deweloperów pomija przed pierwszą sprzedażą. Windows oznacza w ten sposób każdego nierozpoznanego wydawcę. Kliknij „Więcej informacji", a następnie „Uruchom i tak". Kod źródłowy jest publiczny na GitHubie, jeśli chcesz sprawdzić, co robi aplikacja przed instalacją.",
+        a: "Ponieważ aplikacja nie jest jeszcze podpisana płatnym certyfikatem podpisu kodu — coś, co większość niezależnych deweloperów pomija przed pierwszą sprzedażą. Windows oznacza w ten sposób każdego nierozpoznanego wydawcę. Kliknij \"Więcej informacji\", a następnie \"Uruchom i tak\". Kod źródłowy jest publiczny na GitHubie, jeśli chcesz sprawdzić, co robi aplikacja przed instalacją.",
       },
     ],
   },

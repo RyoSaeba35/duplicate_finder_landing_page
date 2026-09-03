@@ -17,7 +17,7 @@ const de: LandingContent = {
     ctaSecondary: "So funktioniert's",
     ctaNote: "Kostenlos scannen, für immer. Kein Konto, keine Kreditkarte. Einmalig €15 zum Freischalten der Löschfunktion.",
     securityNote:
-      "Erster Start: Windows zeigt möglicherweise die Meldung „Windows hat Ihren PC geschützt" — das ist normal für unabhängige Entwickler. Klicke auf Weitere Informationen → Trotzdem ausführen.",
+      "Erster Start: Windows zeigt möglicherweise die Meldung \"Windows hat Ihren PC geschützt\" — das ist normal für unabhängige Entwickler. Klicke auf Weitere Informationen → Trotzdem ausführen.",
     demoMeta: "3 identische Dateien · je 158,3 KB",
     demoReclaimable: "158,3 KB wiederherstellbar",
     counterLabel: "wiederherstellbar, dieser Scan",
@@ -116,7 +116,7 @@ const de: LandingContent = {
       },
       {
         q: "Warum zeigt Windows beim Installieren eine Warnung?",
-        a: "Weil die App noch nicht mit einem kostenpflichtigen Code-Signing-Zertifikat signiert ist — etwas, das die meisten Einzelentwickler vor ihren ersten Verkäufen überspringen. Windows kennzeichnet so jeden unbekannten Herausgeber. Klicke auf „Weitere Informationen" und dann auf „Trotzdem ausführen". Der Quellcode ist auf GitHub öffentlich, wenn du prüfen möchtest, was die App tut.",
+        a: "Weil die App noch nicht mit einem kostenpflichtigen Code-Signing-Zertifikat signiert ist — etwas, das die meisten Einzelentwickler vor ihren ersten Verkäufen überspringen. Windows kennzeichnet so jeden unbekannten Herausgeber. Klicke auf \"Weitere Informationen\" und dann auf \"Trotzdem ausführen\". Der Quellcode ist auf GitHub öffentlich, wenn du prüfen möchtest, was die App tut.",
       },
     ],
   },
