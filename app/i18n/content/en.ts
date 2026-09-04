@@ -12,6 +12,7 @@ const en: LandingContent = {
     headlineLine1: "Find your",
     headlineEm: "duplicate",
     sub: "Scans any folder or drive, shows you exactly what's identical side by side, and moves duplicates to the Recycle Bin — never a permanent delete. Try deletion free for 14 days, no account needed.",
+    ctaPrimary: "Download for Windows",
     ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "See how it works",
     ctaNote: "14-day free trial · No account · No credit card · €15 once to unlock forever",
