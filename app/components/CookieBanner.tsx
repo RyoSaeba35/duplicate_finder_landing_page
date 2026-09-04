@@ -2,6 +2,12 @@
 import { useState, useEffect } from 'react'
 import Script from 'next/script'
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
+
 const CONSENT_KEY = 'cookie_consent'
 const GA_ID = 'G-ZMMEXF8MXS'
 
