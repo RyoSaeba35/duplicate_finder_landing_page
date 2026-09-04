@@ -3,6 +3,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import type { LandingContent } from "../i18n/types";
 import type { Locale } from "../i18n/locales";
 import { localeHref } from "../i18n/href";
+import ButtonTracker from "./ButtonTracker";
 
 // GUMROAD_URL is live: this is the real checkout link from the
 // Duplicate Finder product's Share tab.
@@ -18,7 +19,7 @@ const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
 const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 function FileBadge({ ext }: { ext: string }) {
-  // This is what the real app actually shows for a file it isn't 
+  // This is what the real app actually shows for a file it isn't
   // live-rendering a thumbnail for: a large neutral preview area with a
   // small bordered extension badge centered in it -- not an invented
   // mockup. Matching this exactly, rather than a stylized approximation,
@@ -50,7 +51,7 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
               <a href="#faq">{t.nav.faq}</a>
             </div>
             <LanguageSwitcher locale={locale} />
-            <a className="btn btn--primary btn--sm" href={DOWNLOAD_URL}>
+            <a className="btn btn--primary btn--sm" href={DOWNLOAD_URL} data-track="nav_download">
               {t.nav.download}
             </a>
           </nav>
@@ -67,10 +68,10 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
               </h1>
               <p className="hero__sub">{t.hero.sub}</p>
               <div className="hero__ctaRow">
-                <a className="btn btn--store" href={MICROSOFT_STORE_URL}>
+                <a className="btn btn--store" href={MICROSOFT_STORE_URL} data-track="hero_store">
                   {t.hero.ctaStore}
                 </a>
-                <a className="btn btn--primary" href={DOWNLOAD_URL}>
+                <a className="btn btn--primary" href={DOWNLOAD_URL} data-track="hero_download">
                   {t.hero.ctaPrimary}
                 </a>
               </div>
@@ -185,10 +186,10 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
                 ))}
               </ul>
               <div className="priceCard__actions">
-                <a className="btn btn--primary" href={DOWNLOAD_URL}>
+                <a className="btn btn--primary" href={DOWNLOAD_URL} data-track="pricing_download">
                   {t.pricing.ctaPrimary}
                 </a>
-                <a className="btn btn--ghost" href={GUMROAD_URL}>
+                <a className="btn btn--ghost" href={GUMROAD_URL} data-track="pricing_buy_license">
                   {t.pricing.ctaSecondary}
                 </a>
               </div>
@@ -233,6 +234,7 @@ export default function HomePage({ locale, content: t }: { locale: Locale; conte
           </div>
         </div>
       </footer>
+      <ButtonTracker />
     </>
   );
 }
