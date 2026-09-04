@@ -14,7 +14,7 @@ import ButtonTracker from "./ButtonTracker";
 // download button needs, as opposed to the Gumroad-hosted installer,
 // which is gated behind checkout and can't serve the free trial.
 const DOWNLOAD_URL =
-  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.2.0/Duplicate.Finder_0.2.0_x64-setup.exe";
+  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.2.5/Duplicate.Finder_0.2.5_x64-setup.exe";
 const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
 const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 

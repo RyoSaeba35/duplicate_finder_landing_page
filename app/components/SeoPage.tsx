@@ -1,5 +1,5 @@
 const DOWNLOAD_URL =
-  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.1.0/Duplicate.Finder_0.1.0_x64-setup.exe";
+  "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.2.5/Duplicate.Finder_0.2.5_x64-setup.exe";
 const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 export interface SeoPageProps {
