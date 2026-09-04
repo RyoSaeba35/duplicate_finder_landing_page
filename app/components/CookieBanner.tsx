@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import Script from 'next/script'
 
 const CONSENT_KEY = 'cookie_consent'
+const GA_ID = 'G-ZMMEXF8MXS'
 
 export default function CookieBanner() {
   const [consent, setConsent] = useState<string | null>(null)
@@ -10,12 +11,18 @@ export default function CookieBanner() {
 
   useEffect(() => {
     setMounted(true)
-    setConsent(localStorage.getItem(CONSENT_KEY))
+    const stored = localStorage.getItem(CONSENT_KEY)
+    setConsent(stored)
+    // Already accepted in a previous visit — grant immediately
+    if (stored === 'accepted') {
+      window.gtag?.('consent', 'update', { analytics_storage: 'granted' })
+    }
   }, [])
 
   const accept = () => {
     localStorage.setItem(CONSENT_KEY, 'accepted')
     setConsent('accepted')
+    window.gtag?.('consent', 'update', { analytics_storage: 'granted' })
   }
 
   const decline = () => {
@@ -25,22 +32,24 @@ export default function CookieBanner() {
 
   return (
     <>
-      {consent === 'accepted' && (
-        <>
-          <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-ZMMEXF8MXS"
-            strategy="afterInteractive"
-          />
-          <Script id="gtag-init" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-ZMMEXF8MXS');
-            `}
-          </Script>
-        </>
-      )}
+      {/* Always load — consent mode controls what's collected */}
+      <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+        strategy="afterInteractive"
+      />
+      <Script id="gtag-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            analytics_storage: 'denied',
+            ad_storage: 'denied',
+            wait_for_update: 500
+          });
+          gtag('js', new Date());
+          gtag('config', '${GA_ID}');
+        `}
+      </Script>
 
       {mounted && consent === null && (
         <div style={{
