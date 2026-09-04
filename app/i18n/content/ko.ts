@@ -8,14 +8,14 @@ const ko: LandingContent = {
   },
   nav: { howItWorks: "사용 방법", pricing: "가격", faq: "자주 묻는 질문", download: "다운로드" },
   hero: {
-    eyebrow: "Windows용 · 무료 스캔 · 삭제는 €15 일회 결제",
+    eyebrow: "14일 무료 체험 · Windows용 · 삭제 기능 €15 일회 결제",
     headlineLine1: "중복 파일을",
     headlineEm: "찾아보세요",
-    sub: "폴더나 드라이브를 스캔하고 동일한 파일을 나란히 보여주며, 중복 파일을 휴지통으로 이동합니다 — 영구 삭제는 없습니다.",
+    sub: "모든 폴더나 드라이브를 스캔하고 동일한 파일을 나란히 비교하며 중복 파일을 휴지통으로 이동합니다 — 영구 삭제는 절대 없습니다. 계정 없이 14일 동안 무료로 삭제 기능을 체험하세요.",
     ctaPrimary: "Windows용 다운로드",
     ctaStore: "Microsoft Store에서 받기",
     ctaSecondary: "사용 방법 보기",
-    ctaNote: "스캔은 영구 무료. 계정 없음, 신용카드 없음. €15 일회 결제로 삭제 기능 잠금 해제.",
+    ctaNote: "14일 무료 체험 · 계정 불필요 · 신용카드 불필요 · €15로 영구 잠금 해제",
     securityNote:
       "첫 실행 시: Windows가 \"Windows가 PC를 보호했습니다\" 경고를 표시할 수 있습니다 — 이는 독립 개발자 앱에서 일반적인 현상입니다. 추가 정보 → 실행을 클릭하세요.",
     demoMeta: "동일한 파일 3개 · 각 158.3 KB",

@@ -8,14 +8,14 @@ const pl: LandingContent = {
   },
   nav: { howItWorks: "Jak to działa", pricing: "Cennik", faq: "FAQ", download: "Pobierz" },
   hero: {
-    eyebrow: "Dla Windows · Bezpłatne skanowanie · 15 € jednorazowo, aby usuwać",
+    eyebrow: "14-dniowy bezpłatny okres próbny · Dla Windows · €15 jednorazowo za usuwanie",
     headlineLine1: "Znajdź swoje",
     headlineEm: "duplikaty",
-    sub: "Skanuje dowolny folder lub dysk, pokazuje dokładnie, co jest identyczne obok siebie, i przenosi duplikaty do Kosza — nigdy trwałe usunięcie.",
+    sub: "Skanuje dowolny folder lub dysk, pokazuje dokładnie co jest identyczne obok siebie i przenosi duplikaty do Kosza — nigdy trwałe usunięcie. Wypróbuj usuwanie za darmo przez 14 dni, bez konta.",
     ctaPrimary: "Pobierz dla Windows",
     ctaStore: "Pobierz z Microsoft Store",
     ctaSecondary: "Zobacz jak to działa",
-    ctaNote: "Bezpłatne skanowanie na zawsze. Bez konta, bez karty kredytowej. 15 € raz, aby odblokować usuwanie.",
+    ctaNote: "14-dniowy bezpłatny okres próbny · Bez konta · Bez karty kredytowej · €15 raz, aby odblokować na zawsze",
     securityNote:
       "Pierwsze uruchomienie: Windows może wyświetlić komunikat \"Windows chronił twój komputer\" — jest to normalne dla niezależnych deweloperów. Kliknij Więcej informacji → Uruchom i tak.",
     demoMeta: "3 identyczne pliki · po 158,3 KB",

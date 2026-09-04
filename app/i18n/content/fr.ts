@@ -8,14 +8,14 @@ const fr: LandingContent = {
   },
   nav: { howItWorks: "Comment ça marche", pricing: "Tarifs", faq: "FAQ", download: "Télécharger" },
   hero: {
-    eyebrow: "Pour Windows · Scan gratuit · €15 unique pour supprimer",
+    eyebrow: "Essai gratuit 14 jours · Pour Windows · 15 € unique pour supprimer",
     headlineLine1: "Trouvez vos fichiers",
     headlineEm: "en double",
-    sub: "Analyse n'importe quel dossier ou disque, vous montre exactement ce qui est identique côte à côte, et déplace les doublons vers la Corbeille — aucune suppression définitive.",
+    sub: "Analyse tout dossier ou disque, affiche exactement ce qui est identique côte à côte, et déplace les doublons vers la Corbeille — jamais de suppression définitive. Testez la suppression gratuitement pendant 14 jours, sans compte requis.",
     ctaPrimary: "Télécharger pour Windows",
     ctaStore: "Obtenir depuis le Microsoft Store",
     ctaSecondary: "Voir comment ça marche",
-    ctaNote: "Scan gratuit pour toujours. Sans compte, sans carte bancaire. €15 une fois pour débloquer la suppression.",
+    ctaNote: "14 jours d'essai gratuit · Sans compte · Sans carte bancaire · 15 € une fois pour débloquer définitivement",
     securityNote:
       "Premier lancement : Windows peut afficher une alerte « Windows a protégé votre PC » — c'est normal pour les développeurs indépendants. Cliquez sur Plus d'informations → Exécuter quand même.",
     demoMeta: "3 fichiers identiques · 158,3 Ko chacun",

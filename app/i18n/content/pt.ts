@@ -8,14 +8,14 @@ const pt: LandingContent = {
   },
   nav: { howItWorks: "Como funciona", pricing: "Preços", faq: "FAQ", download: "Baixar" },
   hero: {
-    eyebrow: "Para Windows · Digitalização gratuita · €15 único para excluir",
+    eyebrow: "14 dias de teste gratuito · Para Windows · €15 pagamento único para eliminar",
     headlineLine1: "Encontre seus arquivos",
     headlineEm: "duplicados",
-    sub: "Digitaliza qualquer pasta ou unidade, mostra exatamente o que é idêntico lado a lado e move as duplicatas para a Lixeira — nunca uma exclusão permanente.",
+    sub: "Verifica qualquer pasta ou unidade, mostra exatamente o que é idêntico lado a lado, e move os duplicados para o Lixo — nunca uma eliminação permanente. Experimenta a eliminação gratuitamente por 14 dias, sem necessidade de conta.",
     ctaPrimary: "Baixar para Windows",
     ctaStore: "Obter na Microsoft Store",
     ctaSecondary: "Ver como funciona",
-    ctaNote: "Digitalização gratuita para sempre. Sem conta, sem cartão de crédito. €15 uma vez para desbloquear a exclusão.",
+    ctaNote: "14 dias de teste gratuito · Sem conta · Sem cartão de crédito · €15 uma vez para desbloquear para sempre",
     securityNote:
       "Primeiro acesso: o Windows pode exibir um aviso \"O Windows protegeu seu computador\" — isso é normal para desenvolvedores independentes. Clique em Mais informações → Executar mesmo assim.",
     demoMeta: "3 arquivos idênticos · 158,3 KB cada",

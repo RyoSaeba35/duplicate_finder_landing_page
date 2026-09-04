@@ -8,14 +8,14 @@ const nl: LandingContent = {
   },
   nav: { howItWorks: "Hoe het werkt", pricing: "Prijzen", faq: "FAQ", download: "Downloaden" },
   hero: {
-    eyebrow: "Voor Windows · Gratis scannen · €15 eenmalig om te verwijderen",
+    eyebrow: "14 dagen gratis proberen · Voor Windows · €15 eenmalig om te verwijderen",
     headlineLine1: "Vind je",
     headlineEm: "dubbele",
-    sub: "Scant elke map of schijf, toont je precies wat identiek is naast elkaar, en verplaatst duplicaten naar de Prullenbak — nooit een permanente verwijdering.",
+    sub: "Scant elke map of schijf, toont precies wat identiek is naast elkaar, en verplaatst duplicaten naar de Prullenbak — nooit een permanente verwijdering. Probeer verwijderen 14 dagen gratis, geen account nodig.",
     ctaPrimary: "Downloaden voor Windows",
     ctaStore: "Halen uit de Microsoft Store",
     ctaSecondary: "Bekijk hoe het werkt",
-    ctaNote: "Gratis scannen voor altijd. Geen account, geen creditcard. €15 eenmalig om verwijderen te ontgrendelen.",
+    ctaNote: "14 dagen gratis proberen · Geen account · Geen creditcard · €15 eenmalig om permanent te ontgrendelen",
     securityNote:
       "Eerste start: Windows kan een melding \"Windows heeft uw pc beschermd\" tonen — dit is normaal voor onafhankelijke ontwikkelaars. Klik op Meer info → Toch uitvoeren.",
     demoMeta: "3 identieke bestanden · 158,3 KB elk",

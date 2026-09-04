@@ -8,14 +8,14 @@ const es: LandingContent = {
   },
   nav: { howItWorks: "Cómo funciona", pricing: "Precios", faq: "FAQ", download: "Descargar" },
   hero: {
-    eyebrow: "Para Windows · Escaneo gratuito · €15 pago único para eliminar",
+    eyebrow: "Prueba gratuita 14 días · Para Windows · €15 pago único para eliminar",
     headlineLine1: "Encuentra tus archivos",
     headlineEm: "duplicados",
-    sub: "Escanea cualquier carpeta o unidad, te muestra exactamente qué es idéntico lado a lado, y mueve los duplicados a la Papelera de reciclaje — nunca una eliminación permanente.",
+    sub: "Escanea cualquier carpeta o unidad, muestra exactamente qué es idéntico en paralelo, y mueve los duplicados a la Papelera — nunca una eliminación permanente. Prueba la eliminación gratis 14 días, sin necesidad de cuenta.",
     ctaPrimary: "Descargar para Windows",
     ctaStore: "Obtener desde Microsoft Store",
     ctaSecondary: "Ver cómo funciona",
-    ctaNote: "Escaneo gratuito para siempre. Sin cuenta, sin tarjeta de crédito. €15 una vez para desbloquear la eliminación.",
+    ctaNote: "14 días de prueba gratuita · Sin cuenta · Sin tarjeta de crédito · €15 una vez para desbloquear para siempre",
     securityNote:
       "Primer inicio: Windows puede mostrar una advertencia \"Windows protegió tu PC\" — esto es normal para desarrolladores independientes. Haz clic en Más información → Ejecutar de todas formas.",
     demoMeta: "3 archivos idénticos · 158,3 KB cada uno",

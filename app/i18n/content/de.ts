@@ -8,14 +8,14 @@ const de: LandingContent = {
   },
   nav: { howItWorks: "So funktioniert's", pricing: "Preise", faq: "FAQ", download: "Herunterladen" },
   hero: {
-    eyebrow: "Für Windows · Kostenlos scannen · €15 einmalig zum Löschen",
+    eyebrow: "14 Tage kostenlos testen · Für Windows · €15 einmalig zum Löschen",
     headlineLine1: "Finde deine",
     headlineEm: "doppelten",
-    sub: "Scannt beliebige Ordner oder Laufwerke, zeigt dir genau, was identisch ist, nebeneinander, und verschiebt Duplikate in den Papierkorb — nie eine dauerhafte Löschung.",
+    sub: "Scannt jeden Ordner oder jedes Laufwerk, zeigt genau was identisch ist – nebeneinander – und verschiebt Duplikate in den Papierkorb — niemals eine dauerhafte Löschung. Teste das Löschen 14 Tage kostenlos, kein Konto erforderlich.",
     ctaPrimary: "Für Windows herunterladen",
     ctaStore: "Im Microsoft Store erhalten",
     ctaSecondary: "So funktioniert's",
-    ctaNote: "Kostenlos scannen, für immer. Kein Konto, keine Kreditkarte. Einmalig €15 zum Freischalten der Löschfunktion.",
+    ctaNote: "14 Tage kostenlose Testversion · Kein Konto · Keine Kreditkarte · €15 einmalig zum dauerhaften Freischalten",
     securityNote:
       "Erster Start: Windows zeigt möglicherweise die Meldung \"Windows hat Ihren PC geschützt\" — das ist normal für unabhängige Entwickler. Klicke auf Weitere Informationen → Trotzdem ausführen.",
     demoMeta: "3 identische Dateien · je 158,3 KB",

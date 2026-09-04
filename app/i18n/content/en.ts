@@ -8,14 +8,13 @@ const en: LandingContent = {
   },
   nav: { howItWorks: "How it works", pricing: "Pricing", faq: "FAQ", download: "Download" },
   hero: {
-    eyebrow: "For Windows · Free to scan · €15 one-time to delete",
+    eyebrow: "Free 14-day trial · For Windows · €15 one-time to delete",
     headlineLine1: "Find your",
     headlineEm: "duplicate",
-    sub: "Scans any folder or drive, shows you exactly what's identical side by side, and moves duplicates to the Recycle Bin — never a permanent delete.",
-    ctaPrimary: "Download for Windows",
+    sub: "Scans any folder or drive, shows you exactly what's identical side by side, and moves duplicates to the Recycle Bin — never a permanent delete. Try deletion free for 14 days, no account needed.",
     ctaStore: "Get it from Microsoft Store",
     ctaSecondary: "See how it works",
-    ctaNote: "Free to scan forever. No account, no credit card. €15 once to unlock deletion.",
+    ctaNote: "14-day free trial · No account · No credit card · €15 once to unlock forever",
     securityNote:
       "First launch: Windows may show a \"Windows protected your PC\" prompt — this is normal for independent developers. Click More info → Run anyway.",
     demoMeta: "3 identical files · 158.3 KB each",
