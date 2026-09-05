@@ -16,8 +16,7 @@ const es: LandingContent = {
     ctaStore: "Obtener desde Microsoft Store",
     ctaSecondary: "Ver cómo funciona",
     ctaNote: "14 días de prueba gratuita · Sin cuenta · Sin tarjeta de crédito · €15 una vez para desbloquear para siempre",
-    securityNote:
-      "Primer inicio: Windows puede mostrar una advertencia \"Windows protegió tu PC\" — esto es normal para desarrolladores independientes. Haz clic en Más información → Ejecutar de todas formas.",
+    securityNote: "Primer inicio: Windows puede mostrar una advertencia \"Windows protegió tu PC\" — esto es normal para desarrolladores independientes. Haz clic en Más información → Ejecutar de todas formas.",
     demoMeta: "3 archivos idénticos · 158,3 KB cada uno",
     demoReclaimable: "158,3 KB recuperables",
     counterLabel: "recuperables, este escaneo",
