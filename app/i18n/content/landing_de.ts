@@ -68,7 +68,7 @@ const de: LandingContent = {
       { q: "Löscht es Dateien, die ich wirklich brauche?", a: "Nur Dateien, die du explizit markierst, und erst nachdem du sie nebeneinander verglichen hast. Übereinstimmungen werden durch Hashing gefunden, sodass nur echte Duplikate erscheinen — und jede Löschung geht in den Papierkorb." },
       { q: "Funktioniert es auf Mac oder Linux?", a: "Noch nicht — Duplicate Finder ist derzeit nur für Windows." },
       { q: "Was passiert nach dem 14-tägigen Test?", a: "Das Scannen bleibt kostenlos — du kannst beliebige Ordner scannen und alle Duplikate ohne Kosten sehen, für immer. Das Löschen wird nach dem Test gesperrt. Eine einmalige Lizenz für €15 schaltet das Löschen dauerhaft frei." },
-      { q: "Warum zeigt Windows beim Installieren eine Warnung?", a: "Weil die App noch nicht mit einem kostenpflichtigen Code-Signing-Zertifikat signiert ist. Klicke auf "Weitere Informationen" und dann auf "Trotzdem ausführen". Der Quellcode ist auf GitHub öffentlich." },
+      { q: "Warum zeigt Windows beim Installieren eine Warnung?", a: "Weil die App noch nicht mit einem kostenpflichtigen Code-Signing-Zertifikat signiert ist. Klicke auf \"Weitere Informationen\" und dann auf \"Trotzdem ausführen\". Der Quellcode ist auf GitHub öffentlich." },
     ],
   },
   footer: { copyright: "Duplicate Finder.", changelog: "Änderungsprotokoll", buy: "Kaufen", privacy: "Datenschutz", terms: "Nutzungsbedingungen" },
