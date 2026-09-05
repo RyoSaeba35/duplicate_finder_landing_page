@@ -15,7 +15,7 @@ const de: LandingContent = {
     ctaStore: "Im Microsoft Store erhalten",
     ctaSecondary: "So funktioniert's",
     ctaNote: "14 Tage kostenlos testen · Kein Konto · Keine Kreditkarte · Einmalig €15 zum dauerhaften Freischalten",
-    securityNote: "Erster Start: Windows zeigt möglicherweise die Meldung "Windows hat Ihren PC geschützt" — das ist normal für unabhängige Entwickler. Klicke auf Weitere Informationen → Trotzdem ausführen.",
+    securityNote: "Erster Start: Windows zeigt möglicherweise die Meldung \"Windows hat Ihren PC geschützt\" — das ist normal für unabhängige Entwickler. Klicke auf Weitere Informationen → Trotzdem ausführen.",
     demoMeta: "3 identische Dateien · je 158,3 KB",
     demoReclaimable: "158,3 KB wiederherstellbar",
     counterLabel: "wiederherstellbar, dieser Scan",
