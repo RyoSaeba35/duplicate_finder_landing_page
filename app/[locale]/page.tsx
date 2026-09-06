@@ -24,7 +24,7 @@ export default async function Page({
       "@type": "Offer",
       price: "15",
       priceCurrency: "EUR",
-      url: "https://pierrecode.gumroad.com/l/byzsj",
+      url: "https://gumroad.com/l/byzsj",
     },
   };
 

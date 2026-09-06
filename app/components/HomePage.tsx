@@ -15,7 +15,7 @@ import ButtonTracker from "./ButtonTracker";
 // which is gated behind checkout and can't serve the free trial.
 const DOWNLOAD_URL =
   "https://github.com/RyoSaeba35/duplicate_finder/releases/download/v0.3.0/Duplicate.Finder_0.3.0_x64-setup.exe";
-const GUMROAD_URL = "https://pierrecode.gumroad.com/l/byzsj";
+const GUMROAD_URL = "https://gumroad.com/l/byzsj";
 const MICROSOFT_STORE_URL = "https://apps.microsoft.com/detail/9N4QQ50QK0R6";
 
 function FileBadge({ ext }: { ext: string }) {
