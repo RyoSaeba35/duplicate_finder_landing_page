@@ -15,7 +15,7 @@ const ko: LandingContent = {
     ctaStore: "Microsoft Store에서 받기",
     ctaSecondary: "사용 방법 보기",
     ctaNote: "14일 무료 체험 · 계정 없음 · 신용카드 없음 · €15 일회 결제로 영구 잠금 해제",
-    securityNote: "첫 실행 시: Windows가 "Windows가 PC를 보호했습니다" 경고를 표시할 수 있습니다 — 이는 독립 개발자 앱에서 일반적인 현상입니다. 추가 정보 → 실행을 클릭하세요.",
+    securityNote: "첫 실행 시: Windows가 \"Windows가 PC를 보호했습니다\" 경고를 표시할 수 있습니다 — 이는 독립 개발자 앱에서 일반적인 현상입니다. 추가 정보 → 실행을 클릭하세요.",
     demoMeta: "동일한 파일 3개 · 각 158.3 KB",
     demoReclaimable: "158.3 KB 회수 가능",
     counterLabel: "이번 스캔에서 회수 가능",
